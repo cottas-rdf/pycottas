@@ -90,11 +90,4 @@ If you used pycottas in your work, please cite the **[ISWC paper](https://oa.upm
   pages     = {313--331},
   doi       = {10.1007/978-3-032-09530-5_18},
 }
-
-@misc{cottas-rs,
-  author       = {Casanova-Marroquin, Stephanya},
-  title        = {cottas-rs},
-  year         = {2026},
-  howpublished = {\url{https://github.com/cottas-rdf/cottas-rs}},
-}
 ```
