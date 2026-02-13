@@ -368,29 +368,6 @@ options:
                         Whether to remove the input COTTAS files after merging
 ```
 
-#### Quick Check
-
-Use this minimal end-to-end example to validate the CLI:
-
-``` bash
-cat > example.ttl << 'EOF'
-<http://example.org/Alice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
-<http://example.org/Bob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
-EOF
-
-pycottas rdf2cottas -r example.ttl -c example.cottas -i SPO
-pycottas verify -c example.cottas
-pycottas info -c example.cottas
-pycottas search -c example.cottas -t '?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?o'
-pycottas cottas2rdf -c example.cottas -r example.nt
-```
-
-Expected behavior:
-
-- `verify` returns `True`.
-- `search` returns two tuples.
-- `example.nt` is created with the same two triples.
-
 ## Tricks
 
 ### Multiple Files
