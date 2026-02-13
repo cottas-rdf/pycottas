@@ -31,17 +31,12 @@
 ## Getting Started :rocket:
 
 **[PyPI](https://pypi.org/project/pycottas/)** is the fastest way to install pycottas:
+
 ```bash
 pip install pycottas
 ```
 
 We recommend to use **[virtual environments](https://docs.python.org/3/library/venv.html#)** to install pycottas.
-
-After installing, a CLI command is available:
-
-```bash
-pycottas -h
-```
 
 ```python
 
@@ -69,7 +64,13 @@ for row in res:
     print(row)
 ```
 
-To execute via **command line** check the [docs](https://pycottas.readthedocs.io/en/latest/documentation#command-line). It is also possible to serve COTTAS files as an SPARQL endpoint with [pycottas-endpoint](https://github.com/arenas-guerrero-julian/pycottas-endpoint). 
+To execute via **command line** check the [docs](https://pycottas.readthedocs.io/en/latest/documentation#command-line) or run:
+
+```bash
+pycottas -h
+```
+
+It is also possible to serve COTTAS files as an SPARQL endpoint with [pycottas-endpoint](https://github.com/cottas-rdf/pycottas-endpoint). 
 
 ## License :unlock:
 
