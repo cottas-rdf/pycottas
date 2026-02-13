@@ -45,5 +45,8 @@ dependencies = [
   'pyoxigraph==0.3.18'
 ]
 
+[project.scripts]
+pycottas = 'pycottas.__main__:main'
+
 [tool.hatch.version]
 path = 'src/pycottas/_version.py'

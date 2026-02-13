@@ -16,7 +16,7 @@ from.constants import i_pos
 EPILOG_TEXT = 'Copyright © 2023 Julián Arenas-Guerrero'
 
 
-if __name__ == "__main__":
+def main():
     parser = ArgumentParser(
         prog='pycottas',
         epilog=EPILOG_TEXT)
@@ -87,3 +87,7 @@ if __name__ == "__main__":
         index = args.index if args.index else 'spo'
         remove_input_files = args.remove_input_files if args.remove_input_files else False
         diff(args.cottas_file, args.subtract_cottas_file, args.output_cottas_file, args.index, args.remove_input_files)
+
+
+if __name__ == "__main__":
+    main()

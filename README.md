@@ -37,6 +37,18 @@ pip install pycottas
 
 We recommend to use **[virtual environments](https://docs.python.org/3/library/venv.html#)** to install pycottas.
 
+After installing, a CLI command is available:
+
+```bash
+pycottas -h
+```
+
+You can also use:
+
+```bash
+python3 -m pycottas -h
+```
+
 ```python
 
 import pycottas
@@ -62,6 +74,28 @@ res = graph.query('''
 for row in res:
     print(row)
 ```
+
+### Quick CLI Check
+
+You can validate the CLI with this minimal example:
+
+```bash
+cat > example.ttl << 'EOF'
+<http://example.org/Alice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
+<http://example.org/Bob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Person> .
+EOF
+
+pycottas rdf2cottas -r example.ttl -c example.cottas -i SPO
+pycottas verify -c example.cottas
+pycottas info -c example.cottas
+pycottas search -c example.cottas -t '?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?o'
+pycottas cottas2rdf -c example.cottas -r example.nt
+```
+
+Expected behavior:
+- `verify` returns `True`.
+- `search` returns 2 tuples (Alice and Bob as `rdf:type Person`).
+- `example.nt` is created with the two triples.
 
 To execute via **command line** check the [docs](https://pycottas.readthedocs.io/en/latest/documentation#command-line). It is also possible to serve COTTAS files as an SPARQL endpoint with [pycottas-endpoint](https://github.com/arenas-guerrero-julian/pycottas-endpoint). 
 
