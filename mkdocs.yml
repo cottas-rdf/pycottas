@@ -2,7 +2,7 @@ site_url: https://pycottas.readthedocs.io
 
 site_name: pycottas
 
-repo_url: https://github.com/arenas-guerrero-julian/pycottas
+repo_url: https://github.com/cottas-rdf/pycottas
 edit_uri: ""
 
 copyright: Copyright &copy; 2023 Julián Arenas-Guerrero | Universidad Politécnica de Madrid
@@ -45,7 +45,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/arenas-guerrero-julian/pycottas
+      link: https://github.com/cottas-rdf/pycottas
       name: pycottas on GitHub
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/pycottas/
