@@ -15,9 +15,9 @@ We recommend to use **[virtual environments](https://docs.python.org/3/library/v
 
 ### From Source
 
-You can also grab the latest source code from the **[GitHub repository](https://github.com/arenas-guerrero-julian/pycottas)**.
+You can also grab the latest source code from the **[GitHub repository](https://github.com/cottas-rdf/pycottas)**.
 ```bash
-pip install git+https://github.com/arenas-guerrero-julian/pycottas.git
+pip install git+https://github.com/cottas-rdf/pycottas.git
 ```
 
 ## API Reference
