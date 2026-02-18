@@ -4,9 +4,9 @@ build-backend = 'hatchling.build'
 
 [project.urls]
 Documentation = 'https://pycottas.readthedocs.io'
-Source = 'https://github.com/arenas-guerrero-julian/pycottas'
-Tracker = 'https://github.com/arenas-guerrero-julian/pycottas/issues'
-History = 'https://github.com/arenas-guerrero-julian/pycottas/releases'
+Source = 'https://github.com/cottas-rdf/pycottas'
+Tracker = 'https://github.com/cottas-rdf/pycottas/issues'
+History = 'https://github.com/cottas-rdf/pycottas/releases'
 
 [project]
 name = 'pycottas'
