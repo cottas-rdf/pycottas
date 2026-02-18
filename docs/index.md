@@ -19,7 +19,7 @@
 
 ## Licenses
 
-**pycottas** is available under the **[Apache License 2.0](https://github.com/arenas-guerrero-julian/pycottas/blob/main/LICENSE)**.
+**pycottas** is available under the **[Apache License 2.0](https://github.com/cottas-rdf/pycottas/blob/main/LICENSE)**.
 
 The **documentation** is licensed under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.
 
