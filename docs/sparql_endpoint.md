@@ -1,4 +1,4 @@
-[`pycottas-endpoint`](https://github.com/arenas-guerrero-julian/pycottas-endpoint) can quickly serve COTTAS files through a SPARQL endpoint.
+[`pycottas-endpoint`](https://github.com/cottas-rdf/pycottas-endpoint) can quickly serve COTTAS files through a SPARQL endpoint.
 
 ## Installation
 
