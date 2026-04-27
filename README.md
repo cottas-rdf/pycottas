@@ -84,7 +84,7 @@ It is also possible to serve COTTAS files as an SPARQL endpoint with [pycottas-e
 
 ## Citing :speech_balloon:
 
-If you used pycottas in your work, please cite the **[ISWC paper](https://oa.upm.es/91920/1/arenas2026cottas.pdf)**:
+If you used pycottas in your work, please cite the **[ISWC paper](https://link.springer.com/content/pdf/10.1007/978-3-032-09530-5_18.pdf?pdf=inline%20link)**:
 
 ```bib
 @inproceedings{arenas2026cottas,
